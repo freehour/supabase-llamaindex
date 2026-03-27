@@ -3,7 +3,7 @@
   "private": false,
   "displayName": "Supabase-LlamaIndex",
   "description": "Integration package for using LlamaIndex embedding service with Supabase",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
   },
   "files": [
     "dist",
-    "supabase/migrations",
-    "supabase/schemas",
+    "supabase/migrations/0001_supabase_llamaindex",
+    "supabase/schemas/supabase-llamaindex",
     "scripts/copy-supabase-assets.js"
   ],
   "exports": {
